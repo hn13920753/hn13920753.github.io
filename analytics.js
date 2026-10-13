@@ -2,7 +2,7 @@
    把下面的 G-XXXXXXXXXX 換成你自己的評估 ID 就會開始統計。 */
 (() => {
   'use strict';
-  const GA_ID = 'G-XXXXXXXXXX';
+  const GA_ID = 'G-3PRQWTEK2H';
   if (!/^G-[A-Z0-9]{4,}$/.test(GA_ID) || GA_ID === 'G-XXXXXXXXXX') return;
   if (/^(localhost|127\.)/.test(location.hostname)) return;
 
